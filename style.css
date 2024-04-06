@@ -1,0 +1,410 @@
+* {
+    margin: 3;
+    padding: 3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.img_carr {
+    width: 50px;
+    margin-left: 40px;
+}
+
+.logo-gato {
+    width: 40px;
+    height: 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: pink;
+}
+
+.logo h1 {
+    color: rgb(190, 129, 48);
+}
+
+nav {
+    display: flex;
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.destaque {
+    width: 50%;
+
+}
+
+.dog_cat {
+    width: 50%;
+
+}
+
+.img_banho {
+    display: flex;
+    margin-top: 20px;
+}
+
+.amapet {
+    width: 100%;
+    background-color: rgba(250, 0, 146, 0.295);
+}
+
+.amapet p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.amapet h1 {
+    color: rgb(145, 81, 129);
+    text-align: center;
+}
+
+.servicos-oferecidos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.servicos-oferecidos h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #030303;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 7px 7px 7px;
+
+
+}
+
+.banho_e_tosa p {
+    text-align: center;
+    color: rgb(13, 103, 145);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.banho_e_tosa {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 70%;
+    text-align: center;
+
+}
+
+
+.consultas img {
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.consultas {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 70%;
+
+}
+
+.consultas p {
+    text-align: center;
+    color: rgb(13, 103, 145);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.adestramento p {
+    text-align: center;
+    color: rgb(13, 103, 145);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.adestramento img {
+    width: 250px;
+    height: 250px;
+}
+
+.adestramento {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 70%;
+}
+
+.hospedagem p {
+    text-align: center;
+    color: rgb(13, 103, 145);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.hospedagem {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 70%;
+}
+
+.hospedagem img {
+    width: 250px;
+    height: 250px;
+}
+
+.S_oferecidos {
+    background-color: pink
+}
+
+.racao_hills p {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.racao_cat {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.racao_golden {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.antipugas {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.whiskas {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formulario {
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario h3 {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 7;
+    color: #9e344e;
+    font-size: 22px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin: 1;
+}
+
+.formulario p {
+    display: block;
+    margin: 1;
+}
+
+.copy {
+    background-color: rgb(224, 111, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.copy p {
+    font-size: 15px;
+
+}
+
+.imgcarr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+
+
+}
+
+.voltar {
+    text-align: center;
+    font-size: 17px;
+}
+
+.botao-voltar {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    max-width: 200px;
+}
+
+.botao-voltar:hover {
+    background-color: #45a049;
+}
+
+.botao-comprar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao-comprar:hover {
+    background-color: #45a049;
+}
+
+.prod_recomendados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.prod_recomendados figure {
+    flex: 0 0 calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .prod_recomendados figure {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .prod_recomendados figure {
+        flex: 0 0 calc(100% - 20px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        text-align: center;
+    }
+}
+
+/* Estilos para o formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao-voltar {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao-voltar:hover {
+    background-color: #0056b3;
+}
+
+.S_oferecidos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.servico {
+    text-align: center; 
+    max-width: 200px; 
+}
+
+.servico p {
+    margin-top: 10px; 
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.formulario div {
+    text-align: center; 
+}
+
+.formulario h3 {
+    margin-bottom: 10px;
+}
+
+.formulario button {
+    padding: 10px 20px; 
+    background-color: #007bff;
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-bottom: 5px; 
+}
+
+.formulario button:hover {
+    background-color: #0056b3; 
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+</head>
+<style>
+    body {
+
+        background-color: rgb(243, 241, 237);
+
+    }
+</style>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>AMA </h1> <img class="logo-gato" src="img/tosa-de-animais-de-estimacao.png" alt="logo">
+            <h1> PET</h1>
+        </div>
+    </header>
+    <section>
+        <div class="carrinho">
+            <ul id="cart"></ul>
+        </div>
+    </section>
+
+
+    <a class="botao-voltar" href="index.html"> VOLTAR </a>
+    <script src="carrinho.js"></script>
+
+
+
+    
+        <form action="/action_page.php">
+            <input type="text" id="cep" name="cep" maxlength="8" placeholder="Digite seu CEP" required>
+            <label for="cep">CEP:</label>
+            <br>
+            <label for="pagamento">Forma de pagamento:</label>
+            <select id="pagamento" name="pagamento" required>
+                <option value="">Selecione uma opção</option>
+                <option value="cartao">Cartão de crédito</option>
+                <option value="boleto">Boleto bancário</option>
+                <option value="paypal">PayPal</option>
+
+            </select>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+ 
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETSHOPP</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>AMA </h1> <img class="logo-gato" src="img/tosa-de-animais-de-estimacao.png" alt="logo">
+            <h1> PET</h1>
+        </div>
+        <nav>
+            <a href="home">Home</a>
+            <a href="sobre">Sobre</a>
+            <a href="servicos">Serviços</a>
+            <a href="produtos">Produtos</a>
+            <a href="contato">Contato</a>
+            <a href="email">email</a>
+            <a href="endereço">endereço</a>
+            <a href="carrinho.html"><img class="img_carr" src="imagens/carrr.png"></a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="img_banho">
+            <img class="destaque" src="img/dog-and-cat-wash-in-a-pink-basin-T7BZHAC.jpg" alt="Img_pet">
+            <img class="dog_cat" src="img/banho-tosa-nao-e-servico-instantaneo.jpg" alt="img_dog_cat">
+        </div>
+
+        <div class="amapet">
+            <h1>bem-vindo!</h1>
+            <p>Seu pet merece o melhor! Aqui você encontra serviços de banho e tosa, adestramento, cuidado especial e
+                muito mais. Venha conhecer nossa equipe qualificada e os produtos de alta qualidade que oferecemos.</p>
+        </div>
+    </section>
+
+    <div class="servicos-oferecidos">
+        <h2>Serviços Oferecidos:</h2>
+    </div>
+
+    <nav class="S_oferecidos">
+        <figure class="banho_e_tosa">
+            <p> Banho e Tosa </p>
+            <img src="imagens/banho_tosa.jpg" alt="banho_tosa">
+        </figure>
+
+        <figure class="consultas">
+            <p>Consultas</p>
+            <img src="imagens/consultas.jpg" alt="consultas">
+        </figure>
+
+        <figure class="adestramento">
+            <p>Adestramento</p>
+            <img src="imagens/adestramento.jpg" alt="adestramento">
+        </figure>
+        <figure class="hospedagem">
+            <p>Hospedagem </p>
+            <img src="imagens/hospedagem.jpg" alt="hospedagem">
+        </figure>
+    </nav>
+
+    <h2>Produtos Recomendados:</h2>
+
+    <nav class="prod_recomendados">
+        <figure class="racao_hills">
+            <img class="prodimg" src="imagens/racaoh.png" alt="ração hills">
+            <p class="prodnome">Ração Hills </p>
+            <p class="prodpreco"> 155R$ </p>
+            <button class="botao-comprar" onclick="addToCart(event)">Comprar</button> <
+        </figure>
+
+        <figure class="racao_cat">
+            <img class="prodimg" src="imagens/cat.png" alt="ração cats">
+            <p class="prodnome">Ração Golden </p>
+            <p class="prodpreco"> 512R$ </p>
+            <button class="botao-comprar" onclick="addToCart(event)">Comprar</button> 
+        </figure>
+
+        <figure class="racao_golden">
+            <img class="prodimg" src="imagens/dog_golden.png" alt="ração golden">
+            <p class="prodnome">Ração Golden </p>
+            <p class="prodpreco"> 83,45R$ </p>
+            <button class="botao-comprar" onclick="addToCart(event)">Comprar</button> 
+        </figure>
+
+        <figure class="antipugas">
+            <img class="prodimg" src="imagens/antipugas.png" alt="shampoo antipugas">
+            <p class="prodnome">Shampoo Antipulgas Ibapet</p>
+            <p class="prodpreco">39,90R$</p>
+            <button class="botao-comprar" onclick="addToCart(event)">Comprar</button> 
+        </figure>
+
+        <figure class="whiskas">
+            <img class="prodimg" src="imagens/whiskas.png" alt="Ração whiskas">
+            <p class="prodnome">Ração whiskas </p>
+            <p class="prodpreco">39,90R$</p>
+            <button class="botao-comprar" onclick="addToCart(event)">Comprar</button> <!-- Botão de Compra -->
+        </figure>
+    </nav>
+   
+    <nav class="formulario">
+        <div>
+            <h3>Explorar:</h3>
+            <button onclick="location.href='home.html'">Home</button>
+            <button onclick="location.href='produtos.html'">Produtos</button>
+            <button onclick="location.href='servicos.html'">Serviços</button>
+        </div>
+        <div>
+            <h3>Contato:</h3>
+            <button onclick="location.href='mailto:seuemail@example.com'">Email</button>
+            <button onclick="location.href='tel:+1234567890'">Telefone</button>
+            <button onclick="location.href='https://www.instagram.com/seuinstagram/'">Instagram</button>
+        </div>
+        <div>
+            <h3>Precisa de Ajuda?</h3>
+            <button onclick="location.href='atendimento.html'">Central de Atendimento</button>
+        </div>
+    </nav>
+
+    <nav class="copy">
+        <p>© 2024 AmaPep. Todos os direito reservados</p>
+    </nav>
+    <script src="pet.js"></script>
+</body>
+
+</html>
